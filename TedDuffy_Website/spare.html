@@ -1,0 +1,157 @@
+<div id="cycle-box" >
+      <div class="stage" id="stage-title">Limestone (CaCO₃)</div>
+      <div class="description" id="stage-desc">A natural rock made of calcium carbonate.</div>
+      <button onclick="prevStage()">◀ Back</button>
+      <button onclick="nextStage()">Next ▶</button>
+    </div>
+
+    <h1 class="border-bottom">LimeCycle Process</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Limestone (Calcium Carbonate – CaCO₃)A common rock found in nature.</p>
+
+          <p>The cycle begins with limestone, which is chemically Calcium Carbonate (CaCO₃). What happens? When limestone is 
+            heated to about 1500°F (around 825°C), it breaks down.</p>
+             <h4>Heating Limestone → Quicklime (Calcium Oxide – CaO)</h4>
+             <p>When heated strongly, limestone loses carbon dioxide gas and becomes quicklime.</p>
+             <p>Result: Produces Quicklime (CaO) and Carbon Dioxide (CO₂).</p>
+            <h4>Adding Water to Quicklime → Slaked Lime (Calcium Hydroxide – Ca(OH)₂) </h2>
+              <p>Quicklime reacts with water in an exothermic (heat-producing) reaction to make slaked lime.</p>
+              <h4>Reacting with Carbon Dioxide → Back to Limestone</h2>  
+                <p>Slaked lime reacts with carbon dioxide from the air and turns back into limestone.</p>
+        </div> 
+        <div>
+            </div>
+        <div class="col-md-6">
+
+             </section>
+  <section>
+   
+  </section>
+  <section class="p-3 border-bottom pb-4 mb-4">
+    <div class="container">
+
+      <script>
+  const stages = [
+    {
+      title: "Limestone (CaCO₃)",
+      desc: "A natural rock made of calcium carbonate."
+    },
+    {
+      title: "Quicklime (CaO)",
+      desc: "Heating limestone releases carbon dioxide, leaving calcium oxide – quicklime."
+    },
+    {
+      title: "Slaked Lime (Ca(OH)₂)",
+      desc: "Adding water to quicklime produces slaked lime in a hot reaction."
+    },
+    {
+      title: "Back to Limestone (CaCO₃)",
+      desc: "Slaked lime absorbs carbon dioxide from the air and turns back into limestone."
+    }
+  ];
+
+  let current = 0;
+
+  function updateStage() {
+    document.getElementById("stage-title").textContent = stages[current].title;
+    document.getElementById("stage-desc").textContent = stages[current].desc;
+  }
+
+  function nextStage() {
+    current = (current + 1) % stages.length;
+    updateStage();
+  }
+
+  function prevStage() {
+    current = (current - 1 + stages.length) % stages.length;
+    updateStage();
+  }
+</script>
+
+......................................................................................................................
+
+ <section class="p-3 border-bottom pb-4 mb-4">
+    <div class="container ">
+      <h1 class="border-bottom">Our Conservation Process</h1>
+      <br>
+      <div class="row">
+        <h2>Conservation Surveying</h2  >
+          <p>Conservation Surveys are highly accurate and detailed surveys of structures, buildings and monuments 
+            which are of historical importance and therefore need to be protected. 
+            Our detailed surveys plays a vital role in preserving our architectural heritage. 
+            This specialized practice involves assessing the condition, structure, and materials of historic properties to guide 
+            sensitive restoration and maintenance efforts. Unlike standard surveys, conservational surveys focus on understanding 
+            the building’s historical significance, original construction methods, and the impact of time and environment. 
+            By combining modern technology with traditional knowledge, conservational surveying helps ensure that these culturally
+             valuable structures remain safe, functional, and true to their original character for future generations. </p>
+        <div class="col-md-6">
+          <br>
+            <h2>Conservation Reports</h2> 
+            <p>Conservation Reports are an essential requirement in advance of planned works to Protected Structures. 
+            Such reports typically contain the following information:</p>
+            <ul class="modern-list">
+                <li>Historical background of property and area</li>
+                <li>Architectural record and inventory</li>
+                <li>Statement of significance</li>
+                <li>Condition report</li>
+                <li>Conservation specification</li>
+            </ul>	
+            <br>
+              <h2>Building Experience</h2>
+          <p>We have over forty years of building and conserveration work.</p>
+          <ul class="modern-list">
+            <li>Lime Plastering, Lime Pointing, Lime Floors</li>
+            <li>Rubble Stone walls, in-lime mortar, Cut Stone work</li>
+            <li>Sash Window Restoration</li>
+            <li>Slate Roofing, traditional styles and methods</li>
+            <li>Specialist Lead work</li>
+            <li>Cast Iron Guttering</li>
+            <li>Brick Repairs & Brick Pointing, Clay blocks</li>
+            <li>Damp problems, Dry-Rot, Woodworm, French Drains</li>
+            <li>Insulation of walls, Lime based Internal & External</li>
+            <li>Insulation Natural, Hemp Wool or Sheep's Wool</li>
+            <li>Hemp & Lime Construction, New Timber Frame</li>
+        </ul>	
+        </div>
+        <div class="col-md-6">
+          <br>
+          <h2>Enviromental Benefits of Limestone</h2>
+         <ul class="modern-list">
+          <li><h4>Carbon Capture in Cement Production</h4>
+          <p>When used to make lime (CaO) or cement, limestone can be part of processes that incorporate carbon capture technologies, helping reduce CO₂ emissions.
+          </p></li>
+          <li><h4>Soil pH Neutralisation (Agricultural Lime)</h4>
+          <p>Ground limestone (also called agricultural lime) is used to reduce soil acidity, improving soil health and reducing the need for chemical fertilizers.
+          </p></li>
+          <li><h4>Water Purification</h4>
+          <p>Crushed limestone is used to neutralize acidic water (e.g., from acid rain or acid mine drainage), making it safer for ecosystems.
+        </p>
+          <li><h4>Natural & Abundant Resource</h4>
+        <p>Limestone is a widely available natural rock, meaning extraction often has a lower environmental footprint than synthetic materials if managed sustainably.
+        </p></li>
+          <li><h4>Long-lasting and Durable</h4>
+        <p>As a building material, limestone is extremely durable, reducing the need for frequent replacements and thus lowering the environmental cost of maintenance.
+        </p></li>
+          <li><h4>Recyclability</h4>
+        <p>Limestone used in buildings can often be reused or crushed for other applications, promoting sustainability and reducing waste.
+        </p></li>
+          <li><h4>Carbon Sink in Natural Form</h4>
+        <p>Large natural limestone formations store carbon in the form of calcium carbonate, contributing to the long-term carbon cycle.
+        </p></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+   
+  </section>
+
+  <footer class="container bg-light text-center py-4">
+    <p>&copy; 2025 Teddy Duffy Conservation. All rights reserved.</p>
+  </footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="extrastyle.js"></script>
+    <script src="car.js"></script>
+  
